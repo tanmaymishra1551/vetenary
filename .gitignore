@@ -1,0 +1,89 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Exclude local database migration files (SQLite, for example)
+*/migrations/*.sqlite3
+
+# Database files
+*.sqlite3
+
+# Django secret key
+*.env
+.env
+
+# Local settings file
+local_settings.py
+
+# Media and Static files
+/static/
+/media/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Virtual Environment
+venv/
+env/
+ENV/
+*.env
+
+# Cache files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.swp
+
+# Python specific
+*.pyd
+*.so
+*.dylib
+*.dll
+
+# Distribution / packaging
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg-info/
+MANIFEST
+
+# Pytest
+.cache/
+
+# Coverage reports
+.coverage
+.coverage.*
+nosetests.xml
+test-results.xml
+*.cover
+*.hypothesis/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# PyCharm files
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
